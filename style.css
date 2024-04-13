@@ -574,6 +574,13 @@ a.handbag:before {
     color: white;
     background-position: center;
 }
+.service-box.four {
+    background: url(assets/images/service-thumb-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+}
 .secvice-box-content h3 {
     font-size: 24px;
     font-weight: 700;
