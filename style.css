@@ -571,6 +571,7 @@ a.handbag:before {
     background: url(assets/images/service-thumb-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
     background-position: center;
 }
 .secvice-box-content h3 {
