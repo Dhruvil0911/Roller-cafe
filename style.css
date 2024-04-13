@@ -408,6 +408,7 @@ a.handbag:before {
 }
 .section-sub-title.about {
     margin-bottom: 7px;
+    margin-top: 15px;
 }
 .section-discription.about {
     width: 90%;
@@ -482,6 +483,7 @@ a.handbag:before {
 }
 .about-order-btn {
     margin-left: -48px;
+    margin-top: 10px;
 }
 .about-order-btn a {
     display: inline-block;

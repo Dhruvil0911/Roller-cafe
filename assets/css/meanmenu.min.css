@@ -129,13 +129,4 @@ a.meanmenu-reveal{display:none}
 .mean-container a.meanmenu-reveal:hover span {
   background: #fff;
 }
-.mean-container .mean-bar::before {
-  color: #fff;
-  content:"Dreamhub";
-  font-size: 22px;
-  font-weight: 600;
-  left: 10px;
-  position: absolute;
-  top: 18px;
-  font-family: 'Roboto';
-}
+
