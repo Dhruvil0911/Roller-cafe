@@ -279,6 +279,9 @@ button.button {
 .slider-content-btn a {
     font-size: 16px;
 }
+.hero-btn a {
+    font-size: 16px;
+}
 .slider-thumb {
     margin-left: -16px;
     margin-right: -35px;
@@ -523,6 +526,9 @@ button.button {
 	font-size: 14px;
 }
 .slider-content-btn a {
+    font-size: 16px;
+}
+.hero-btn a {
     font-size: 16px;
 }
 .slider-thumb {
@@ -791,6 +797,9 @@ button.button {
 	font-size: 14px;
 }
 .slider-content-btn a {
+    font-size: 16px;
+}
+.hero-btn a {
     font-size: 16px;
 }
 .slider-thumb {
@@ -1101,6 +1110,10 @@ button.button {
     font-size: 166px;
 }
 .slider-content-btn a {
+    font-size: 14px;
+    padding: 8px 23px;
+}
+.hero-btn a {
     font-size: 14px;
     padding: 8px 23px;
 }
