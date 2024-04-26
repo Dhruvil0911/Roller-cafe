@@ -40,7 +40,23 @@
 		bottom: 108px; /* Adjust the distance from the bottom as needed */
 		right: 30px; /* Adjust the distance from the right as needed */
 		z-index: 9999; /* Ensure it appears above other content */
-	}</style>
+	}
+	.outlet-list {
+            list-style-type: none;
+            padding: 0;
+			margin-top: 20px;
+        }
+		.outlet-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .outlet-item:nth-child(even) {
+            background-color: #e9e9e9;
+        }
+	</style>
 </head>
 <body>
 	<!-- loder -->
@@ -249,13 +265,18 @@
 				<div class="section-title text-center">
 					<div class="section-bg-dot"></div>
 					<div class="section-sub-title">
-						<h4>OUR MISSION</h4>
+						<h4>OUR OUTLET</h4>
 					</div>
-					<div class="section-main-title">
-						<h3>Infusing joy through every sip and bite served.</h3>
-					</div>
-					<div class="section-discription">
-						<p>Our mission is to delight every guest with unparalleled gastronomic excellence, impeccable service, and a welcoming atmosphere, creating moments of joy and connection that last long after the last bite.</p>
+					<div>
+						<ol class="outlet-list">
+							<li class="outlet-item">Sama Savli Road, Vadodara</li>
+							<li class="outlet-item">Tulsidham Circle Manjalpur, Vadodara</li>
+							<li class="outlet-item">Karjan, Vadodara</li>
+							<li class="outlet-item">Vatva, Ahmedabad</li>
+							<li class="outlet-item">PDPU Road, Gandhinagar</li>
+							<li class="outlet-item">Piplod, Surat</li>
+							<li class="outlet-item">Uma Circle, Waghodia Road, Vadodara (Coming Soon)</li>
+						</ol>
 					</div>
 				</div>
 			</div>
