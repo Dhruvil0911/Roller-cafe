@@ -3024,3 +3024,11 @@ span.flaticon-multiply i {
     right: 30px; /* Adjust the distance from the right as needed */
     z-index: 9999; /* Ensure it appears above other content */
 }
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
